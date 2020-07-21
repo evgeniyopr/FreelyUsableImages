@@ -35,7 +35,7 @@ class FullScreenImageView: UIView {
 		
 		imageView.frame = UIScreen.main.bounds
 		imageView.backgroundColor = .black
-		imageView.contentMode = .scaleAspectFit
+		imageView.contentMode = .scaleAspectFill
 		imageView.isUserInteractionEnabled = true
 		
 		imageView.load(url: url) { [weak self] in
