@@ -47,7 +47,7 @@ class ImageCollectionViewCell: UICollectionViewCell {
 	func configure(with viewModel: ImageCollectionViewCellViewModel) {
 		
 		if let url = URL(string: viewModel.smallUrl) {
-			self.imageView.load(url: url)
+			self.imageView.load(url: url) { }
 		} else {
 			imageView.backgroundColor = .gray
 		}

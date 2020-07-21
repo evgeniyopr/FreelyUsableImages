@@ -65,14 +65,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49BFC3FA24C71AE600900F9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49C0014624C712CF00E2F4C4 /* FullScreenImageView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		49C0014024C7111A00E2F4C4 /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
 				49C0014124C7118000E2F4C4 /* Cells */,
+				49BFC3FA24C71AE600900F9F /* Views */,
 				4971080524C6E7150081A436 /* MainViewModel.swift */,
 				49CD3B6F24C5F34E00AC9874 /* ViewController.swift */,
 				49CD3B7124C5F34E00AC9874 /* Main.storyboard */,
-				49C0014624C712CF00E2F4C4 /* FullScreenImageView.swift */,
 			);
 			name = MainModule;
 			sourceTree = "<group>";
