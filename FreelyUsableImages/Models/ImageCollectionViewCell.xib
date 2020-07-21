@@ -16,8 +16,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="259" height="227"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7yZ-bS-SYA">
-                        <rect key="frame" x="0.0" y="0.0" width="259" height="227"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7yZ-bS-SYA">
+                        <rect key="frame" x="0.0" y="2" width="259" height="223"/>
                     </imageView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Gn-V2-JVn">
                         <rect key="frame" x="229" y="102.5" width="20" height="22"/>
@@ -30,8 +30,8 @@
                 </subviews>
             </view>
             <constraints>
-                <constraint firstItem="7yZ-bS-SYA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="AEx-92-QqD"/>
-                <constraint firstAttribute="bottom" secondItem="7yZ-bS-SYA" secondAttribute="bottom" id="CCF-up-Zoq"/>
+                <constraint firstItem="7yZ-bS-SYA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="2" id="AEx-92-QqD"/>
+                <constraint firstAttribute="bottom" secondItem="7yZ-bS-SYA" secondAttribute="bottom" constant="2" id="CCF-up-Zoq"/>
                 <constraint firstItem="2Gn-V2-JVn" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="HF4-Tj-Nz8"/>
                 <constraint firstAttribute="trailing" secondItem="7yZ-bS-SYA" secondAttribute="trailing" id="TLe-OZ-PGz"/>
                 <constraint firstAttribute="trailing" secondItem="2Gn-V2-JVn" secondAttribute="trailing" constant="10" id="WS1-hb-Q3d"/>

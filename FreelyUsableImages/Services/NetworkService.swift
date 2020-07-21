@@ -16,7 +16,6 @@ final class NetworkService: NetworkingProtocol {
 	
 	func request(path: String, parameters: [String: String], completion: @escaping (Result<Data, Error>) -> ()) {
 		let url = self.url(from: path, parameters: parameters)
-		print(url)
 		let request = URLRequest(url: url)
 		let task = URLSession.shared.dataTask(with: request) { data, response, error in
 			guard let responseData = data, error == nil else {

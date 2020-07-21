@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="O4V-qc-DuS">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="5" y="88" width="404" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aBj-I2-RGv">
                                     <size key="itemSize" width="128" height="128"/>
@@ -38,10 +38,10 @@
                         <constraints>
                             <constraint firstItem="EXV-Pm-q0S" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2T5-k9-R6r"/>
                             <constraint firstItem="O4V-qc-DuS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9HF-8j-WM9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="O4V-qc-DuS" secondAttribute="bottom" id="M8y-6F-hsE"/>
-                            <constraint firstItem="O4V-qc-DuS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="W9S-as-qfG"/>
+                            <constraint firstItem="O4V-qc-DuS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="W9S-as-qfG"/>
+                            <constraint firstAttribute="bottom" secondItem="O4V-qc-DuS" secondAttribute="bottom" id="WV2-5d-pSi"/>
                             <constraint firstItem="EXV-Pm-q0S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bAi-QI-NM1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="O4V-qc-DuS" secondAttribute="trailing" id="wjo-kx-qIP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="O4V-qc-DuS" secondAttribute="trailing" constant="5" id="wjo-kx-qIP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
